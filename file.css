@@ -1,0 +1,80 @@
+nav{
+    background-color: rgb(20, 158, 244);
+    display: flex;
+}
+nav img{
+    height: 20%;
+    margin-left: 15%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* width: 7%; */
+    /* background-color: rgb(255, 0, 34); */
+    padding: 1%;
+    padding-top: 3%;
+}
+body{
+    font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+a:hover{
+    background-color: rgb(70, 85, 248);
+}
+.Wgon_and_News{
+margin-left: 15%;
+margin-right: 15%;
+background-color: rgba(17, 255, 219, 0.993);
+display: grid;
+grid-template-columns: 65% 35%;
+}
+.Wgon{
+    background-color: blueviolet;
+margin: 5%;
+/* padding: 5%; */
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+.News{
+    background-color: blue;
+margin: 5%;
+/* padding: 5%; */
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+.Recomend{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 242, 0, 0.993);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.Recomend h1{
+grid-column-start:1;
+grid-column-end:6;
+}
+body .Recomend .Proyect img{
+width:100%;
+}
+.Recomend .Proyect{
+    margin-left:3%;
+    margin-right:3%;
+}
+.Foter{
+    background-color: rgb(219, 219, 219);
+    display: grid;
+    grid-template-columns: 19% 19% 19% 24% 19%;
+    padding-left:12%;
+    padding-right:12%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:small;
+}
+.Foter ul{
+    list-style-type:none;
+}
+.Foter ul li{
+    margin-top:10px;
+}
