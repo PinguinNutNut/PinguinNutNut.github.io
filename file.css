@@ -52,6 +52,24 @@ h1{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
+.Studio{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 242, 0, 0.993);
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+body .Studio .Proyect img{
+width:100%;
+}
+.Studio h1{
+    grid-column-start:1;
+    grid-column-end:6;
+}
+.Studio .Proyect{
+    margin-left:2%;
+    margin-right:2%;
+}
 .Recomend h1{
 grid-column-start:1;
 grid-column-end:6;
