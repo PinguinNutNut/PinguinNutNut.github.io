@@ -3,7 +3,7 @@ nav{
     display: flex;
 }
 nav img{
-    height: 20%;
+    height: 15%;
     margin-left: 15%;
 }
 a{
@@ -95,4 +95,31 @@ width:100%;
 }
 .Foter ul li{
     margin-top:10px;
+}
+@media screen and (max-width: 600px){
+    body{
+    }
+    .Foter{
+        grid-template-columns:50% 50%;
+    }
+    .Recomend{
+        grid-template-columns:33% 33% 33%;
+    }
+    .Recomend h1{
+        grid-column-start:1;
+        grid-column-end:4;
+    }
+    .Wgon_and_News{
+        grid-template-columns: 100%;
+    }
+        nav img{
+            height: 2%;
+            margin-left: 2%;
+            width:20%;
+            margin-top:1%;
+    }
+    .Recomend, .Studio, .Wgon_and_News{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
