@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch</title>
+    <link href="file.css" rel="stylesheet">
+    <link rel="shortcut icon" href="123.ico" type="image/x-icon">
+</head>
+<body>
+<nav><img src="https://seeklogo.com/images/S/scratch-logo-929B76C101-seeklogo.com.png">
+<a href="index.html">Главная</a>
+<a href="Another Page.html">Иследуй</a>
+<a href="">Идеи</a>
+<a href="">О проекте</a>
+<a href=""> Поиск</a></nav>
+<div class="Explore"><h1>Исследуй</h1><button onclick="myClick()">Try the first style!</button><button onclick="myFirstClik()">Try the original style!</button></div>
+
+<div class="Galery"><button onclick="RightClick()" class="myclick" style="left: 1220px; top: 50px;">></button>
+<div class="Image" style="left: 50px;" ><img src="https://uploads.scratch.mit.edu/projects/thumbnails/718884116.png" width="150px"></div>
+
+<div class="Image" style="left: 250px;"><img src="https://uploads.scratch.mit.edu/projects/thumbnails/690438924.png" width="150px"></div>
+
+<img class="Image" style="left: 450px;" src="https://uploads.scratch.mit.edu/projects/thumbnails/706756464.png" width="150px">
+
+<img class="Image" style="left: 650px;" src="https://uploads.scratch.mit.edu/projects/thumbnails/719495600.png" width="150px">
+
+<div class="Image" style="left: 850px"><img src="https://uploads.scratch.mit.edu/projects/thumbnails/716328966.png" width="150px"></div>
+  
+<img class="Image" style="left: 1050px;" src="https://uploads.scratch.mit.edu/projects/thumbnails/716867511.png" width="150px">
+
+<button onclick="LeftClick()" class="myclick" style="top: 50px;"><</button>
+</div>
+
+<div class = 'questions'>
+    <h1>Пройди эту игру Вопрос Ответ!</h1>
+    <h3>Какое животное самое быстрое в мире?</h3>
+    <input type="text">
+    <h3>Какое не самое быстрое животное в мире?</h3>
+    <input type="text">
+    <h3>Сколько ног у паука?</h3>
+    <input type="text">
+    <h3>Что пьет корова?</h3>
+    <input type="text">
+    <h3>Введите любой зимний месяц:</h3>
+    <input type="text">
+    <h3>Сколько весит Акула?</h3>
+    <input type="text">
+    <h3>Какой рост у жирафа?</h3>
+    <input type="text">
+    <br>
+    <br><button onclick="questionClick()">Отправить</button>
+    
+
+
+ 
+</div>
+
+
+<div class="Foter">
+    <div class="block">
+        <ul>
+            <li><h3>О проекте</h3></li>
+            <li>О Scratch</li>
+            <li>Для родителей</li>
+            <li>Для учителей</li>
+            <li>Для разработчиков</li>
+            <li>Наша команда</li>
+            <li>Доноры</li>
+            <li>Вакансии</li>
+            <li>Пожертвовать</li>
+        </ul>
+    </div>
+    <div class="block">
+        <ul>
+            <li><h3>Сообщество</h3></li>
+            <li>Правила сообщества</li>
+            <li>Форумы</li>
+            <li>Вики Scratch</li>
+            <li>Статистика</li>
+        </ul>
+    </div>
+    <div class="block">
+        <ul>
+            <li><h3>Ресурсы</h3></li>
+            <li>Идеи</li>
+            <li>ЧаВо</li>
+            <li>Загрузить</li>
+            <li>Связаться с нами</li>
+        </ul>
+    </div>
+    <div class="block">
+        <ul>
+            <li><h3>Права</h3></li>
+            <li>Условия использования</li>
+            <li>Политика конфиденциальности</li>
+            <li>Закон DMCA</li>
+        </ul>
+    </div>
+    <div class="block">
+        <ul>
+            <li><h3>Семейство Scratch</h3></li>
+            <li>ScratchEd</li>
+            <li>ScratchJr</li>
+            <li>Scratch Day</li>
+            <li>Конференция Scratch</li>
+            <li>Фонд Scratch</li>
+            <li>Магазин Scratch</li>
+        </ul>
+    </div>
+</div>
+<script>
+    function myClick(){
+    explores = document.getElementsByClassName("Explore");
+    explore = explores[0]
+    console.log("hello");
+    explore.style.backgroundColor = "#000000";
+    console.log(explore.style.backgroundColor);
+
+    Foter = document.getElementsByClassName('Foter')
+    Foter = Foter[0]
+    Foter.style.backgroundColor = "red";
+Foter.style.color = 'yellow';
+    }
+function myFirstClik(){
+    explores = document.getElementsByClassName("Explore");
+    explore = explores[0]
+    console.log("hello");
+    explore.style.backgroundColor = "orange";
+    console.log(explore.style.backgroundColor);
+
+    Foter = document.getElementsByClassName('Foter')
+    Foter = Foter[0]
+    Foter.style.backgroundColor = "lightgrey";
+Foter.style.color = 'black';
+}
+
+function PositionClick(){
+    Image = document.getElementsByClassName('Image');
+    Image = Image[0];
+    Image.style.position = 'absolute';
+    Image.style.right = '8px'
+    P = document.querySelectorAll('p');
+    P = P[0];
+    P.style.position = 'absolute';
+    P.style.left = '650px'
+    Button = document.getElementsByClassName('myclick');
+    Button = Button[0];
+    Button.style.position = 'absolute';
+    Button.style.bottom = '10px'
+}
+
+
+function PositionClick(){
+    Image = document.getElementsByClassName('Image');
+    Image = Image[0];
+    Image.style.position = 'absolute';
+    Image.style.right = '8px'
+    P = document.querySelectorAll('p');
+    P = P[0];
+    P.style.position = 'absolute';
+    P.style.left = '650px'
+    Button = document.getElementsByClassName('myclick');
+    Button = Button[0];
+    Button.style.position = 'absolute';
+    Button.style.bottom = '10px'
+}
+function LeftClick(){
+    Images = document.getElementsByClassName('Image');
+    console.log(Images[1].style.left.replace('px', ''));
+    // Images[1].style.left = Images[1].style.left.replace('px', '') - 200
+    Images[1].style.left = '50px';
+    Images[2].style.left = '250px';
+    Images[3].style.left = '450px';
+    Images[4].style.left = '650px';
+    Images[5].style.left = '850px';
+}
+function RightClick(){
+    Images = document.getElementsByClassName('Image');
+    Images[0].style.left = '250px';
+    Images[1].style.left = '450px';
+    Images[2].style.left = '650px';
+    Images[3].style.left = '850px';
+    Images[4].style.left = '1050px';
+}
+
+// n = '700px';
+// n = n.replace('px', '');
+// n = n -200
+// n = String(n)+'px'
+// console.log(typeof(n));
+// console.log(n);
+
+function questionClick(){
+    Answers = document.getElementsByTagName('input');
+    answer1 = Answers[0].value;
+    answer2 = Answers[1].value;
+    answer3 = Answers[2].value;
+    answer4 = Answers[3].value;
+    answer5 = Answers[4].value;
+    answer6 = Answers[5].value;
+    answer7 = Answers[6].value;
+    if (answer1 == 'Puma'||answer1 == 'Lion'||answer1 == 'Tiger'){
+        console.log("Ответ 1 правельный")
+        Answers[0].style.borderColor = '#4CAF50';
+    }
+    else{
+        console.log('Ответ 1 неправельный')
+        Answers[0].style.borderColor = 'red';
+    }
+    if (answer2 == 'Turtle'||answer2 == 'Bee'||answer2 == 'Sheep'){
+        console.log('Ответ 2 правельный')
+        Answers[1].style.borderColor = '#4CAF50';
+    }
+    else{
+        console.log('Ответ 2 неправельный')
+        Answers[1].style.borderColor = 'red';
+    }
+    if (answer3 == 8 || answer3 == 6 ){
+    console.log('Ответ 3 правельный')
+    Answers[2].style.borderColor = '#4CAF50';
+    }
+    else{
+    console.log('Ответ 3 неправельный')
+    Answers[2].style.borderColor = 'red';
+    }
+    if (answer4 == "water" || answer4 == "water" ){
+    console.log('Ответ 4 правельный')
+    Answers[3].style.borderColor = '#4CAF50';
+    }
+    else{
+    console.log('Ответ 4 неправельный')
+    Answers[3].style.borderColor = 'red';
+    }
+    if (answer5 == 'January' || answer5 == 'Feberuary'||answer5 == 'Dicember'){
+    console.log('Ответ 5 правельный')
+    Answers[4].style.borderColor = '#4CAF50';
+    }
+    else{
+    console.log('Ответ 5 неправельный')
+    Answers[4].style.borderColor = 'red';
+    }
+    if (answer6 == "1000kg" || answer6 == "900kg" ){
+    console.log('Ответ 6 правельный')
+    Answers[5].style.borderColor = '#4CAF50';
+    }
+    else{
+    console.log('Ответ 6 неправельный')
+    Answers[5].style.borderColor = 'red';
+    }
+    if (answer7 == "6m" || answer7 == "5m" ){
+    console.log('Ответ 7 правельный')
+    Answers[6].style.borderColor = '#4CAF50';
+    }
+    else{
+    console.log('Ответ 7 неправельный')
+    Answers[6].style.borderColor = 'red';
+    }
+} 
+
+
+
+
+// login = 'hello';
+// password = '123';
+// if (login == 'hello' && password == '123'){
+//     console.log('Access accepted')
+// }
+// else{
+//     console.log('Access dismised')
+// }
+
+// month = 'January'
+// if (month == 'January'||month == 'Feberuary'||month == 'Dicember'){
+//     console.log('Good answer')    
+// }
+// message = false
+// if (message == true){
+//     console.log('Message to email')
+// }
+// if (!message){
+//     console.log('No messages to email')
+// }
+// animal = 'Dog'
+// if (animal != 'Dog'){
+//     console.log('Animal not found')
+// }
+// else{
+//     console.log('Animal found')
+// }
+// console.log("Какое животное самое быстрое в мире?")
+// animal = 'Puma'
+// if (animal == 'Puma'||animal == 'Lion'||animal == 'Tiger'){
+//     console.log('Good answer')    
+// }
+// else{
+//     console.log('Incorrect Answer')
+// }
+// console.log("Какое не самое быстрое животное в мире?")
+// animals = 'Turtle'
+// if (animals == 'Turtle'||animals == 'Bee'||animals == 'Sheep'){
+//     console.log('Correct answer')
+// }
+// else{
+//     console.log('Answer Incorrect')
+// }
+// console.log('Сколько ног у паука?')
+// spider = 8  
+// if (spider == 8 || spider == 6 ){
+//     console.log('The Answer Is Correct')
+// }
+// else{
+//     console.log('The Answer Is Incorrect')
+// }
+// console.log('Что пьет корова?')
+// cow = "water"  
+// if (cow == "water" || cow == "water" ){
+//     console.log('The Answer Is Correct')
+// }
+// else{
+//     console.log('The Answer Is Incorrect')
+// }
+// console.log('Сколько весит Акула?')
+// shark = "1000kg"  
+// if (shark == "1000kg" || shark == "900kg" ){
+//     console.log('The Answer Is Correct')
+// }
+// else{
+//     console.log('The Answer Is Incorrect')
+// }
+// console.log('Какой рост у жирафа?')
+// giraffe = "6m"  
+// if (giraffe == "6m" || giraffe == "5m" ){
+//     console.log('The Answer Is Correct')
+// }
+// else{
+//     console.log('The Answer Is Incorrect')
+// }
+
+a = [50, 250, 450, 650, 850, 1050]
+// a[0] = a[0]-200
+// console.log(a)
+// a[1] = 350
+// a[3] = a[3]-200
+
+// a[3] = a[2]+a[4]
+// a[4] = a[1]-200
+function left(){
+    
+    for(i=0 ; i<6 ; i=i+1){
+        console.log(i)
+        a[i]=a[i]-200
+    }
+    console.log(a)
+}
+function right(){
+    
+    abc=0
+    while(abc<6){
+        a[abc]=a[abc]+200
+        abc=abc+1
+    }
+    console.log(a)
+}
+console.log(a)
+left()
+right()
+
+//Какое животное самое быстрое в мире?
+//5 вопросов
+//Загадки живоные
+</script>
+<!-- <script type="module" src="C:\Users\Suri\Desktop\PinguinNutNut.github.io/login.js"></script> -->
+
+</body>
+</html>

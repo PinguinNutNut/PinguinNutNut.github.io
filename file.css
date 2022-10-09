@@ -3,7 +3,7 @@ nav{
     display: flex;
 }
 nav img{
-    height: 15%;
+    height: 55px;
     margin-left: 15%;
 }
 a{
@@ -13,7 +13,7 @@ a{
     /* width: 7%; */
     /* background-color: rgb(255, 0, 34); */
     padding: 1%;
-    padding-top: 3%;
+    padding-top: 1.5%;
 }
 body{
     font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
@@ -42,7 +42,13 @@ margin: 5%;
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
 }
-h1{
+.Studio h1{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+.Recomend h1{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+.Wgon_and_News h1{
     background-color: rgba(255, 255, 255, 0.438);
 }
 .Recomend{
@@ -70,17 +76,45 @@ width:100%;
     margin-left:2%;
     margin-right:2%;
 }
-.Recomend h1{
-grid-column-start:1;
-grid-column-end:6;
+.Design{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 242, 0, 0.993);
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-body .Recomend .Proyect img{
-width:100%;
+.Design h1{
+    background-color: rgba(255, 255, 255, 0.438);
 }
-.Recomend .Proyect{
-    margin-left:3%;
-    margin-right:3%;
+body .Design .Proyect img{
+    width:100%;
+    }
+.Design h1{
+    grid-column-start:1;
+    grid-column-end:6;
 }
+.Design .Proyect{
+    margin-left:2%;
+    margin-right:2%;
+}
+.Remix{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 242, 0, 0.993);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Remix h1{
+    grid-column-start:1;
+    grid-column-end:6;
+    }
+    body .Remix .Proyect img{
+    width:100%;
+    }
+    .Remix .Proyect{
+        margin-left:3%;
+        margin-right:3%;
+    }
 .Foter{
     background-color: rgb(219, 219, 219);
     display: grid;
@@ -96,6 +130,103 @@ width:100%;
 .Foter ul li{
     margin-top:10px;
 }
+.Recomend h1{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+.Recomend{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 242, 0, 0.993);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+body .Recomend .Proyect img{
+    width:100%;
+    }
+.Recomend h1{
+    grid-column-start:1;
+    grid-column-end:6;
+}
+.Remix .Proyect{
+    margin-left:2%;
+    margin-right:2%;
+}
+.Explore{
+background-color: rgb(255, 191, 0); 
+text-align: center;
+color: rgb(255, 255, 255);
+padding: 1%;
+}  
+.Explore button{
+    background-color: greenyellow;
+    font-size: large;
+} 
+.Explore button:hover{
+    background-color: green;
+}
+.Remix{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(255, 242, 0, 0.993);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+body .Remix .Proyect img{
+    width:100%;
+    }
+    .Remix h1{
+        background-color: rgba(255, 255, 255, 0.438);
+    }
+.Galery{
+    height: 150px;;
+    position: relative;
+}
+.Galery .Image{
+    position : absolute;
+}
+.myclick{
+    position: absolute;
+}
+.questions{
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+.questions input{
+    background-color: aquamarine;
+
+}
+.questions button{
+    background-color: #ffff00; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+
+.questions button:hover{
+    background-color: #4CAF50; /* Green */
+  color: rgb(255, 0, 0);
+}
+
+.questions input{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    padding: 5px;
+    border-radius: 6px;
+  }
+
+
+/* nav{
+    position: fixed;
+    width: 100%;
+    margin-bottom:15%;
+    top: 0;
+} */
 @media screen and (max-width: 600px){
     body{
     }

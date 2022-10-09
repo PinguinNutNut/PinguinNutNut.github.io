@@ -10,8 +10,8 @@
 </head>
 <body>
     <nav><img src="https://seeklogo.com/images/S/scratch-logo-929B76C101-seeklogo.com.png">
-<a href="">Создовай</a>
-<a href="">Иследуй</a>
+<a href="index.html">Главная</a>
+<a href="Another Page.html">Иследуй</a>
 <a href="">Идеи</a>
 <a href="">О проекте</a>
 <a href=""> Поиск</a></nav>
@@ -77,6 +77,34 @@
     <br>Name
 </div>
 </div>
+<div class="Design"><h1>Студия дизайна Scratch</h1>
+    <div class="Proyect">
+        <img src="https://uploads.scratch.mit.edu/projects/thumbnails/706499582.png">
+        <br>Proyect name
+        <br>Name
+        <br>
+    </div>
+    <div class="Proyect">
+        <img src="https://uploads.scratch.mit.edu/projects/thumbnails/623330281.png">
+        <br>Proyect name
+        <br>Name
+    </div>
+    </div>
+</div>
+<div class="Remix"><h1>Что ремиксит сообщество</h1>
+    <div class="Proyect">
+        <img src="https://uploads.scratch.mit.edu/projects/thumbnails/708333992.png">
+        <br>Proyect name
+        <br>Name
+        <br>
+    </div>
+    <div class="Proyect">
+        <img src="https://uploads.scratch.mit.edu/projects/thumbnails/718562939.png">
+        <br>Proyect name
+        <br>Name
+    </div>
+    </div>
+</div>
 <div class="Foter">
     <div class="block">
         <ul>
@@ -129,5 +157,31 @@
         </ul>
     </div>
 </div>
+<button onclick="myClick()">Try the first style!</button>
+<script>
+    function myClick(){
+    explores = document.getElementsByClassName("Recomend");
+    explore = explores[0]
+    console.log("hello");
+    explore.style.backgroundColor = "#000000";
+    console.log(explore.style.backgroundColor);
+    
+    Foter = document.getElementsByClassName('Foter')
+    Foter = Foter[0]
+    Foter.style.backgroundColor = "red";
+
+    Studio = document.getElementsByClassName('Studio')
+    Studio = Studio[0]
+    Studio.style.backgroundColor = "pink";
+
+    Design = document.getElementsByClassName('Design')
+    Design = Design[0]
+    Design.style.backgroundColor = "yellow";
+
+    Remix = document.getElementsByClassName('Remix')
+    Remix = Remix[0]
+    Remix.style.backgroundColor = "brown";
+}
+</script>
 </body>
 </html>
