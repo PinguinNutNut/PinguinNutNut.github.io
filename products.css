@@ -1,0 +1,61 @@
+nav{
+    /* background-color: rgb(190, 255, 244); */
+    width: 20%;
+    float: left;
+    /* height: ; */
+}
+section{
+    /* background-color: aquamarine; */
+    width: 60%;
+    float: left; 
+    /* height: 200px; */
+}
+header{
+    background-color: blueviolet;
+    background: url(https://static-cse.canva.com/blob/846884/GreenandYellowLemonFruitPatternZoomVirtualBackground.png);
+    color: crimson;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+aside{
+    /* background-color: blue; */
+    width: 20%;
+    float: left;
+    /* height: 200px; */
+}
+article{
+    background-color: rgb(236, 236, 236);
+    width:31.3333333333333333333333%;
+    height:70vh;
+    float: right;
+    margin: 1%;
+    height: 15vh;
+}
+section footer{
+background-color: rebeccapurple;
+height: 10vh;
+}
+section header{
+background:none;
+background-color: brown;
+height: auto;
+color: black;
+text-align: left;
+padding-top: 0%;
+padding-bottom: 0%;
+height: 10vh;
+
+}
+footer{
+    background-color: darkorchid;
+}
+body{
+    font-size: 2vw;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10%;
+}
+main{
+    background-color: blue;
+    height: 70vh;
+}
