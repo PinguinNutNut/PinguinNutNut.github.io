@@ -27,7 +27,6 @@ aside{
 article{
     background-color: rgb(236, 236, 236);
     width:31.3333333333333333333333%;
-    height:70vh;
     float: right;
     margin: 1%;
     height: 15vh;
@@ -67,5 +66,26 @@ main{
 @media screen and (max-width: 600px){
     body{
         padding: 0%;
+        margin: 0%;
+        font-size: 3vw;
+    }
+    article{
+        height: 10vh;
+    }
+    section header{
+        height: 7vh;
+        font-size: 3vw;
+    }
+    section footer{
+        height: 7vh;
+    }
+    .products{
+        height: 33vh;
+    }
+    main{
+        height: 48vh;
+    }
+    header{
+        font-size: 5vw;
     }
 }
