@@ -54,6 +54,7 @@ body{
     font-size: 2vw;
     font-family:'Courier New', Courier, monospace;
     padding: 10%;
+
 }
 main{
     background-color: blue;
@@ -62,4 +63,9 @@ main{
 .products{
     height: 51vh;
     background-color: fuchsia;
+}
+@media screen and (max-width: 600px){
+    body{
+        padding: 0%;
+    }
 }
