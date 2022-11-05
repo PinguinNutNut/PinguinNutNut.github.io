@@ -65,7 +65,7 @@ main{
 }
 .image{ 
     height: 60%;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -105,8 +105,9 @@ main{
         font-size: 3vw;
     }
     article{
-        height: 10vh;
+        height: 50vh;
         width: 48%;
+       
     }
     section header{
         height: 7vh;
@@ -116,13 +117,29 @@ main{
         height: 7vh;
     }
     .products{
-        height: 55vh;
+        height: 255vh;
+        
     }
     main{
-        height: 69vh;
+        height: 269vh;
     }
     header{
         font-size: 5vw;
     }
-
+    .text{
+        font-size: 4vw;
+        
+    }
+    .rating{
+        font-size: 3vw;
+    }
+    .stars{
+        font-size: 4vw;
+      
+    }
+    .image img{
+        padding-top:20%;
+    }
+    
+    
 }
