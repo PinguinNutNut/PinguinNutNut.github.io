@@ -123,7 +123,13 @@ p{
         grid-template-columns: 100%;
     }
     .gift{
-        width: 2%;
+        width: 7%;
+    }
+    .blue a{
+        font-size: 5vw;
+    }
+    .blue h1{
+        font-size: 8vw;
     }
 
 }
