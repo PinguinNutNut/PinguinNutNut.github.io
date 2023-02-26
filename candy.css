@@ -116,3 +116,11 @@ p{
     height: 4vw;
     transition: margin-left 5s, margin-right 5s, background-color 3s, height 5s;
 }
+
+@media screen and (max-width: 1000px){
+    .main{
+        /* display: none; */
+        grid-template-columns: 100%;
+    }
+
+}
