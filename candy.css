@@ -57,8 +57,8 @@ p{
     text-decoration:none; 
     text-align:center; 
     padding:3% 5%; 
-    border:solid 1% #004F72;
-    border-radius: 1%;
+    border:solid 0px #004F72;
+    border-radius: 4px;
     font:1.5vw 'Century Gothic'; 
     /* font-weight:bold;  */
     color:#ffffff; 
