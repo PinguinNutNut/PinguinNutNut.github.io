@@ -122,5 +122,8 @@ p{
         /* display: none; */
         grid-template-columns: 100%;
     }
+    .gift{
+        width: 2%;
+    }
 
 }
