@@ -57,13 +57,13 @@ p{
     text-decoration:none; 
     text-align:center; 
     padding:3% 5%; 
-    border:solid 1px #004F72;
-    border-radius: 4px; 
+    border:solid 1% #004F72;
+    border-radius: 4%; 
     font:1.5vw 'Century Gothic'; 
     /* font-weight:bold;  */
     color:#ffffff; 
     background:#006699; 
-    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;       
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
 }
 .picture{
     background-color: coral;
