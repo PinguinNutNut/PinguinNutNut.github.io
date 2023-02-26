@@ -6,24 +6,20 @@ nav{
 }
 section{
     /* background-color: aquamarine; */
-    width: 60%;
+    width: 100%;
     float: left; 
     /* height: 200px; */
 }
 header{
-    background-color: blueviolet;
-    background: url(https://static-cse.canva.com/blob/846884/GreenandYellowLemonFruitPatternZoomVirtualBackground.png);
+    /* background-color: blueviolet; */
+    background: url(https://phonoteka.org/uploads/posts/2021-06/1623455276_4-phonoteka_org-p-tekstura-rombi-belie-krasivo-4.jpg);
     color: crimson;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    height: 60vh;
+    background-size: cover;
+    margin-bottom: 2%;
 }
-aside{
-    /* background-color: blue; */
-    width: 20%;
-    float: left;
-    /* height: 200px; */
-}
+
 article{
     background-color: rgb(255, 253, 253);
     width:31.3333333333333333333333%;
@@ -32,7 +28,7 @@ article{
     height: 35vh;
 }
 section footer{
-background-color: rgb(0, 255, 8);
+background-color: rgb(255, 255, 255);
 height: 9vh;
 }
 section header{
@@ -54,9 +50,10 @@ body{
     font-family:'Courier New', Courier, monospace;
     padding: 0%; 
     margin: 0%;
+   
 }
 main{
-    background-color: blue;
+    background-color: rgb(4, 4, 28);
     height: 131vh;
 }
 .products{
@@ -98,6 +95,157 @@ main{
     display: block;
     padding-top: 10%;
 }
+.ka{
+/* background-color: rgb(246, 70, 202); */
+height:20vh;
+padding: 2%;
+padding-bottom:0;
+}
+.lider{
+    /* background-color: rgb(81, 193, 20); */
+    height: 60vh;
+    padding-left: 3%;
+}
+.logo{
+    width: auto;
+    float: left;
+    height: 40%;
+    margin-right: 3%;
+}
+.object, .katalog{
+    width: auto;
+    float: left;
+    height: 40%;
+    padding-right:8vw;
+    padding-top: 2vh;
+}
+
+.big_text{
+height: auto;
+text-align: left;
+padding: 1%;
+font-size: 3vw;
+font-weight: bolder;
+color: black;
+}
+.small_text{
+height: 20%;
+width: 65%;
+text-align: left;
+padding: 1%;
+color: black;
+line-height: 0.8;
+}
+.object img{
+    height:90%;
+}
+.logo p{
+    margin-bottom: 100%;
+    /* float: right; */
+}
+.object a, .katalog a{
+    text-decoration: none;
+    color: black;
+}
+.object a:hover{
+    color: rgb(255, 255, 255);
+}
+.back{
+    text-align: left;
+    padding: 1%;
+}
+.back a:hover{
+    color: azure;
+}
+.back a{
+    text-decoration: none   ;
+    color: black;
+}
+.katalog .drop_down_content{
+    background-color: rgba(255, 255, 255, 0.447);
+        display: none;
+    position: absolute;
+}
+.katalog:hover .drop_down_content{
+    display: block;
+}
+.katalog .drop_down_content a:hover{
+    background-color: blueviolet;
+}
+.grid-container {
+    display: grid;
+grid-template-columns: 15% 70%;
+margin-left: 3%;
+width: 25%;
+ float: left; 
+
+}
+.grid-img img{
+    width: 80%;
+}
+.grid-item{
+    padding-top: 3%;
+    border-bottom: 2px solid #b8b8b8;
+    box-shadow: 0px 9px 13px -5px rgba(172, 0, 255, 0.6);
+}
+.fourcolumns{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    width: 72%;
+    float: left; 
+}
+.twotables{
+    /* display: grid;
+    grid-template-columns: 30% 70%; */
+    margin-left: 3%;
+}
+.graycircle{
+    width:12vw;
+    background-color: rgba(219, 213, 213, 0.594);
+    height: 12vw;
+    border-radius: 12vw;    
+    margin-left: 10%;
+    box-shadow: 0px 0px 14px 4px rgba(255, 0, 158, 0.5);
+    margin-bottom: 25%;
+}
+.graycircle img{
+    height: 70%;
+}
+.discount{
+    border-radius: 10vw;
+    background-color: orange;
+    width: 30%;
+    color: white;
+    font-size: 1.5vw;
+    padding: 5%;
+}
+.price{
+    border-radius: 10vw;
+    background-color: rgb(33, 37, 255);
+    width: 40%;
+    color: white;
+    font-size: 1.5vw;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: 30%;
+}
+.price:hover{
+    color: black;
+    background-color: greenyellow;
+}
+/* .food{
+    border: 2px solid green;
+} */
+
+.slogan{
+font-size: 8vw;
+color: goldenrod;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 50%;
+}
+
 @media screen and (max-width: 600px){
     body{
         padding: 0%;
@@ -139,6 +287,7 @@ main{
     }
     .image img{
         padding-top:20%;
+        width: 70%;
     }
     
     

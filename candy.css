@@ -1,0 +1,118 @@
+.blue{
+    height: auto;
+    padding-top:7%;
+}
+.white{
+    background-color: white;
+} 
+.main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 0;
+    background-color: rgb(0, 101, 153);
+    height: fit-content;
+}
+body{
+    margin: 0;
+}
+.photo{
+    background-color: rgb(130, 238, 162);
+    height: 40vw;
+    background: url(https://gamerwall.pro/uploads/posts/2022-03/1648563700_2-gamerwall-pro-p-pirogi-fon-krasivie-2.jpg);
+    background-size: cover;
+}
+.text{
+    padding-left: 10%;
+    padding-right: 7%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+.white h1{
+    color: rgb(0, 101, 153);
+    font-family: 'Century Gothic';
+    font-size: 3vw;
+}  
+.blue h1{
+    color: white;
+    font-size: 3vw;
+} 
+a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15%;
+    font-size: 1.5vw;
+}
+a:hover{
+    color: yellow;
+}
+p{
+    line-height: 2;
+    font-size: 1.5vw;
+}
+.text2{
+    padding-left: 7%;
+}
+.button{
+    text-decoration:none; 
+    text-align:center; 
+    padding:3% 5%; 
+    border:solid 1px #004F72;
+    border-radius: 4px; 
+    font:1.5vw 'Century Gothic'; 
+    /* font-weight:bold;  */
+    color:#ffffff; 
+    background:#006699; 
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;       
+}
+.picture{
+    background-color: coral;
+}
+.first_gallery{
+    height: 5vw;
+    background-color: darkmagenta;
+    margin-left: 15%;
+    background-size: cover;
+    opacity: 0;
+    margin-top:20%;
+    margin-bottom:20%;
+    width: 7vw;
+}
+.first_gallery.animation{
+    opacity: 100%;
+    height: 10vw;
+    width: 12vw;
+    margin-left: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    transition: margin-bottom 5s, margin-top 5s, opacity 3s, margin-left 5s, margin-right 5s, background-color 3s, height 5s, width 5s;
+    
+}
+.second_gallery{
+    height: 15vw;
+    background-color: darkmagenta;
+    margin-left: 3%;
+    background-size: cover;
+    opacity: 0 ;
+}
+.third_gallery{
+    height: 15vw;
+    background-color: darkmagenta;
+    margin-left: 3%;
+    background-size: cover;
+}
+.fourth_gallery{
+    height: 17vw;
+    background-color: darkmagenta;
+    margin-left: 3%;
+    background-size: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.fourth_gallery.color{
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: orange;
+    height: 4vw;
+    transition: margin-left 5s, margin-right 5s, background-color 3s, height 5s;
+}
