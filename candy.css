@@ -4,6 +4,9 @@
 }
 .white{
     background-color: white;
+    background: url(https://www.publicdomainpictures.net/pictures/130000/nahled/burger-tile.jpg);
+    /* background-size: cover;  */
+    background-attachment: fixed;
 } 
 .main{
     width: 100%;
@@ -24,9 +27,12 @@ body{
 }
 .text{
     padding-left: 10%;
-    padding-right: 7%;
+    padding-right: 7%; 
     padding-top: 7%;
     padding-bottom: 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: white;
 }
 .white h1{
     color: rgb(0, 101, 153);
@@ -64,6 +70,7 @@ p{
     color:#ffffff; 
     background:#006699; 
     box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    
 }
 .picture{
     background-color: coral;
@@ -116,6 +123,53 @@ p{
     height: 4vw;
     transition: margin-left 5s, margin-right 5s, background-color 3s, height 5s;
 }
+.burger{
+    text-align: center;
+    font-size: 7vw;
+    color:whitesmoke;
+    font-family: roboto,Sans-serif; 
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20vh;
+    
+}
+.photo h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    text-shadow: 0.5vw 0.3vw 0.2vw black;
+}
+.photo img{
+    position: absolute;
+}
+.photo #img1{
+    height: 20vw;
+    top: 10vw;
+    left: 50vw;
+    z-index: 0;
+}
+.photo #img2{
+    height: 10vw;
+    top: 10vw;
+    left: 80vw;
+}
+.photo #img3{
+    height: 25vw;
+    top: 8vw;
+    right: 55vw;
+}
+.photo #img4{
+    height: 10vw;
+    top: 27vw;
+    right: 15vw;
+}
+.photo #img5{
+    height: 15vw;
+    top: 1vw;
+    right: 26vw;
+}
 
 @media screen and (max-width: 1000px){
     .main{
@@ -130,6 +184,34 @@ p{
     }
     .blue h1{
         font-size: 8vw;
+        text-align: left;
+        padding-left: 35%;
+    }
+    .photo #img1{
+        height: 20vw;
+        top: 110vw;
+        left: 50vw;
+        z-index: 0;
+    }  
+    .photo #img4 {
+        height: 10vw;
+        top: 130vw;
+        right: 7vw;
+    }
+    .photo #img2 {
+        height: 10vw;
+        top: 104vw;
+        left: 80vw;
+    }  
+    .photo #img5 {
+        height: 15vw;
+        top: 104vw;
+        right: 58vw;
+    }
+    .photo #img3 {
+        height: 25vw;
+        top: 114vw;
+        right: 75vw;
     }
 
 }
