@@ -131,6 +131,7 @@ p{
     font-weight: 600;
     text-transform: uppercase;
     padding-top: 20vh;
+    height:40vh;
     
 }
 .photo h1{
@@ -213,6 +214,9 @@ p{
         height: 25vw;
         top: 114vw;
         right: 75vw;
+    }
+    .burger{
+        height: 20vh;
     }
 
 }
