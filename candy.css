@@ -140,6 +140,8 @@ p{
     z-index: 1;
     position: relative;
     text-shadow: 0.5vw 0.3vw 0.2vw black;
+    padding-top: 20vw;
+    margin: 0;
 }
 .photo img{
     position: absolute;
